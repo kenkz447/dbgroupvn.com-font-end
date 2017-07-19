@@ -1,0 +1,21 @@
+{
+    "version": "0.2.0",
+    "configurations": [{
+        "name": "Debug",
+        "type": "chrome",
+        "request": "launch",
+        "webRoot": "${workspaceRoot}",
+        "url": "http://localhost:3000",
+        "userDataDir": false,
+        "sourceMaps": true,
+        "preLaunchTask": "development",
+        "smartStep": false,
+        "internalConsoleOptions": "openOnSessionStart",
+        "skipFiles": [
+            "node_modules/**"
+        ],
+        "sourceMapPathOverrides": {
+            "webpack:///*": "${webRoot}/*"
+        }
+    }]
+}

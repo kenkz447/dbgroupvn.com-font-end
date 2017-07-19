@@ -1,0 +1,30 @@
+export default {
+    //routes
+    'tat-ca': 'all',
+    'bo-suu-tap': 'collection',
+    'cong-trinh': 'construction',
+    'du-an': 'project',
+    've-chung-toi': 'about-us',
+    'thu-vien': 'library',
+    'lien-he': 'contact',
+    'ban-do': 'map',
+    'hoi-dap': 'faq',
+    'chi-tiet': 'details',
+    //words
+    'danh mục': 'Category',
+    'tìm kiếm': 'Search',
+    'công trình': 'Construction',
+    'dự án': 'Project',
+    'khách<br/>sạn': 'Hospitality',
+    'nhà ở': 'Residence',
+    'căn<br/>hộ': 'Apartment',
+    'trang chủ': 'Home',
+    'về chúng tôi': 'About Us',
+    'bộ sưu tập': 'Collection',
+    'thư viện': 'Library',
+    'hỏi đáp': 'FAQ',
+    'liên hệ': 'Contact',
+    'lên ý tưởng': 'Concept',
+    'đang thi công': 'Under Construction',
+    'đã hoàn thành': 'Finish'
+}

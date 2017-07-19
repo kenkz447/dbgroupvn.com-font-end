@@ -1,0 +1,32 @@
+.search {
+    $search-height: 38px;
+    position: relative;
+    height: $search-height;
+    &-box {
+        display: none;
+        transition: all .3s ease-in-out;
+        overflow: hidden;
+    }
+    &-button {
+        height: $search-height;
+    }
+    &.open {
+        animation: search-box-open .7s forwards;
+        .search-box {
+            display: block;
+        }
+        .search-button {
+            position: absolute;
+            display: none
+        }
+    }
+}
+
+@keyframes search-box-open {
+    from {
+        width: 0;
+    }
+    to {
+        width: 150px;
+    }
+}

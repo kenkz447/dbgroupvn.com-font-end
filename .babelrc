@@ -1,0 +1,30 @@
+{
+    "presets": [
+        "es2015",
+        "react"
+    ],
+    "plugins": [
+        "react-hot-loader/babel"
+    ],
+    "env": {
+        "production": {
+            "presets": [
+                "react-optimize"
+            ],
+            "plugins": [
+                "transform-decorators-legacy",
+                "babel-plugin-transform-class-properties",
+                "babel-plugin-transform-object-rest-spread",
+                "transform-react-jsx-source"
+            ]
+        },
+        "development": {
+            "plugins": [
+                "transform-decorators-legacy",
+                "babel-plugin-transform-class-properties",
+                "babel-plugin-transform-object-rest-spread",
+                "transform-react-jsx-source"
+            ]
+        }
+    }
+}

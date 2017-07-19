@@ -1,0 +1,35 @@
+.pager {
+    text-align: right;
+    &-item {
+        margin-left: .5rem;
+        color: #fff;
+        cursor: pointer;
+        &.active {
+            a {
+                background: #272727;
+            }
+        }
+        &-next,
+        &-pre {
+            color: #000;
+            .page-link {
+                text-transform: capitalize;
+                padding: {
+                    left: 1.5rem;
+                    right: 1.5rem;
+                }
+                background: #fff;
+                border: 1px solid gray;
+                line-height: 1;
+                color: #000;
+            }
+        }
+    }
+    .page-link.active:hover {
+        background: #272727;
+        color: #fff;
+    }
+    .disabled {
+        opacity: .5;
+    }
+}
